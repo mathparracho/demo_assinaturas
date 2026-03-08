@@ -131,7 +131,7 @@ def chamar_compare(api_url, arquivo1, arquivo2):
 # =========================
 with st.sidebar:
     st.title("Configurações")
-    api_url = st.text_input("URL da API Backend", value="http://localhost:5000")
+    api_url = st.text_input("URL da API Backend", value="http://194.163.172.45")
     threshold = st.slider("Limiar de decisão", min_value=0.0, max_value=2.0, value=0.50, step=0.01)
 
     st.markdown("---")
